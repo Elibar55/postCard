@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: black;
+	font-family: "Roboto", sans-serif;
+}
+
+.mainContainer {
+	background-color: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	padding: 10px;
+}
+
+.cardHeader {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 15px;
+}
+.title {
+	font-size: 25px;
+}
+.logo {
+	width: 70px;
+	height: 100%;
+}
+.cardMiddle {
+	display: flex;
+	justify-content: space-between;
+}
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.text {
+	width: 50%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.btnContainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.button {
+	border-bottom: 0;
+}
+
+input {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}
